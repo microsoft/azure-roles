@@ -64,8 +64,8 @@ resource "azurerm_role_assignment" "example" {
 
 ### Enumerating in VS Code
 
-![Enumerating in VS Code](enumerating-vs_code)
+![Enumerating in VS Code](enumerating-vs_code.png)
 
 ### Searching for role in JSON
 
-![Searching for role in JSON](searching-for-role-in-json)
+![Searching for role in JSON](searching-for-role-in-json.png)

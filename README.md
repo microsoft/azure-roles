@@ -1,33 +1,56 @@
-# Project
+# Azure Roles
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+There are a lot of role GUIDs to remember or lookup. 
 
-As the maintainer of this project, please make a few updates:
+Make it easier on yourself.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+Simplify using Azure's built-in roles in Bicep and Terraform
 
-## Contributing
+**How to**
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+1. Copy the "azure_roles.json" file from this repo
+2. Make it available in your repo
+3. Use the following example to leverage the JSON to make it easier when assigning Azure's built-in roles.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+**Bicep Example**
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+```bicep
+// From main.bicep
+// Use Bicep's loadJsonContent to use Azure Roles JSON
+var azureRoles = loadJsonContent('azure_roles.json')
 
-## Trademarks
+// role.bicep module
+param principalId string = ''
+param principalType string = 'User'
+param roleDefinitionId string = azureRoles.CognitiveServicesOpenAIUser
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+resource openAiRoleUser 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(subscription().id, resourceGroup().id, principalId, roleDefinitionId)
+  properties: {
+    principalId: principalId
+    principalType: principalType
+    roleDefinitionId: resourceId('Microsoft.Authorization/roleDefinitions', roleDefinitionId)
+  }
+}
+```
+
+**Terraform Example**
+
+```terraform
+locals {
+    # Use Terraform's jsondecode to use Azure Roles JSON
+    azure_roles = jsondecode(file("${path.module}/azure_roles.json"))
+}
+
+data "azurerm_subscription" "primary" {
+}
+
+data "azurerm_client_config" "example" {
+}
+    
+resource "azurerm_role_assignment" "example" {
+  scope                = data.azurerm_subscription.primary.id
+  role_definition_id   = local.azure_roles.CognitiveServicesOpenAIUser
+  principal_id         = data.azurerm_client_config.example.object_id
+}
+```

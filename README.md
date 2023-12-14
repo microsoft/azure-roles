@@ -11,6 +11,9 @@ Simplify using Azure's built-in roles in Bicep and Terraform
 1. Copy the "azure_roles.json" file from this repo
 2. Make it available in your repo
 3. Use the following example to leverage the JSON to make it easier when assigning Azure's built-in roles.
+4. Lookup the role in the json, now you can use plain english in the bicep file to always know the role being assigned 
+   1. FYI, you can use Visual Studio Code's auto-complete feature when enumerating the azureRoles var instead of looking it up in the json.
+
 
 **Bicep Example**
 
@@ -54,3 +57,11 @@ resource "azurerm_role_assignment" "example" {
   principal_id         = data.azurerm_client_config.example.object_id
 }
 ```
+
+**Enumerating in VS Code**
+
+![Enumerating in VS Code](enumerating-vs_code)
+
+**Searching for role in JSON**
+
+![Searching for role in JSON](searching-for-role-in-json)

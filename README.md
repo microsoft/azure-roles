@@ -17,7 +17,7 @@ Simplify using Azure's built-in roles in Bicep and Terraform
 
 ## Example
 
-### **Bicep**
+### Bicep
 
 ```bicep
 // From main.bicep
@@ -39,7 +39,7 @@ resource openAiRoleUser 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
 }
 ```
 
-### **Terraform **
+### Terraform
 
 ```terraform
 locals {
@@ -62,10 +62,10 @@ resource "azurerm_role_assignment" "example" {
 
 ## Use Case
 
-### **Enumerating in VS Code**
+### Enumerating in VS Code
 
 ![Enumerating in VS Code](enumerating-vs_code)
 
-### **Searching for role in JSON**
+### Searching for role in JSON
 
 ![Searching for role in JSON](searching-for-role-in-json)

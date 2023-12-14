@@ -15,7 +15,9 @@ Simplify using Azure's built-in roles in Bicep and Terraform
    1. FYI, you can use Visual Studio Code's auto-complete feature when enumerating the azureRoles var instead of looking it up in the json.
 
 
-**Bicep Example**
+## Example
+
+### **Bicep**
 
 ```bicep
 // From main.bicep
@@ -37,7 +39,7 @@ resource openAiRoleUser 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
 }
 ```
 
-**Terraform Example**
+### **Terraform **
 
 ```terraform
 locals {
@@ -58,10 +60,12 @@ resource "azurerm_role_assignment" "example" {
 }
 ```
 
-**Enumerating in VS Code**
+## Use Case
+
+### **Enumerating in VS Code**
 
 ![Enumerating in VS Code](enumerating-vs_code)
 
-**Searching for role in JSON**
+### **Searching for role in JSON**
 
 ![Searching for role in JSON](searching-for-role-in-json)

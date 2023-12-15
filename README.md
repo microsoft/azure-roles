@@ -21,14 +21,18 @@ Simplify using Azure's built-in roles in Bicep and Terraform
 
 ```bicep
 // From main.bicep
-// Use Bicep's loadJsonContent to use Azure Roles JSON
-var azureRoles = loadJsonContent('azure_roles.json')
 
-// role.bicep module
+// Parameters
 param principalId string = ''
 param principalType string = 'User'
 param roleDefinitionId string = azureRoles.CognitiveServicesOpenAIUser
 
+// Variables
+// Use Bicep's loadJsonContent to use Azure Roles JSON
+var azureRoles = loadJsonContent('azure_roles.json')
+
+// Resources
+// Role assignment
 resource openAiRoleUser 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
   name: guid(subscription().id, resourceGroup().id, principalId, roleDefinitionId)
   properties: {

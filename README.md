@@ -25,7 +25,6 @@ Simplify using Azure's built-in roles in Bicep and Terraform
 // Parameters
 param principalId string = ''
 param principalType string = 'User'
-param roleDefinitionId string = azureRoles.CognitiveServicesOpenAIUser
 
 // Variables
 // Use Bicep's loadJsonContent to use Azure Roles JSON
@@ -38,7 +37,7 @@ resource openAiRoleUser 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
   properties: {
     principalId: principalId
     principalType: principalType
-    roleDefinitionId: resourceId('Microsoft.Authorization/roleDefinitions', roleDefinitionId)
+    roleDefinitionId: azureRoles.CognitiveServicesOpenAIUser
   }
 }
 ```
@@ -68,8 +67,24 @@ resource "azurerm_role_assignment" "example" {
 
 ### Enumerating in VS Code
 
+You can autocomplete in line in VS code.
+
 ![Enumerating in VS Code](enumerating-vs_code.png)
 
+### Inline Search in VS Code
+
+Beyond enumerating, you can search inline to find the appropriate role.
+
+![image-20240117171339979](inline-search-vs-code.png)
+
+### Inline GUID Review
+
+Hovering over the role will provide the GUID. Helpful if you are translating existing GUID into the JSON variable.
+
+![Inline GUID Review](inline-guid-review.png)
+
 ### Searching for role in JSON
+
+You can always search through the JSON. Helpful if you are translating existing GUID into the JSON variable.
 
 ![Searching for role in JSON](searching-for-role-in-json.png)

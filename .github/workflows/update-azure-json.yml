@@ -3,6 +3,9 @@ on: workflow_dispatch
   #schedule:
     #- cron: '59 23 * * *'
 
+permissions:
+  contents: write
+  
 jobs:
     build:
       name: Run PowerShell Script

@@ -46,6 +46,14 @@ $sortedJson = $sortedObject | ConvertTo-Json -Depth 5
 # Output the sorted JSON
 $sortedJson | Out-File "azure_roles.json"
 
-git add azure_roles.json
-git commit -m "updating file"
-git push
+
+& git config --local user.email "paullizer@microsoft.com"
+& git config --local user.name "Paul Lizer"
+
+& git diff --exit-code
+if ($LASTEXITCODE -ne 0)
+{
+    & git add "azure_roles.json"
+    & git commit -m "Updating roles"
+    & git push
+}

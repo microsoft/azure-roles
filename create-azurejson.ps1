@@ -14,7 +14,7 @@ $SecurePassword = ConvertTo-SecureString -String "$env:CLIENT_SECRET"-AsPlainTex
 $TenantId = "$env:TENANT_ID"
 $ApplicationId = "$env:CLIENT_ID"
 $Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $ApplicationId, $SecurePassword
-Connect-AzAccount -ServicePrincipal -TenantId $TenantId -Credential $Credential
+Connect-AzAccount -ServicePrincipal -TenantId $TenantId -Credential $Credential | Out-Null
 
 # Retrieve role definitions and create a custom object
 $roleMappings = @{}
@@ -45,3 +45,7 @@ $sortedJson = $sortedObject | ConvertTo-Json -Depth 5
 
 # Output the sorted JSON
 $sortedJson | Out-File "azure_roles.json"
+
+git add azure_roles.json
+git commit -m "updating file"
+git push

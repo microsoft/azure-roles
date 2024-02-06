@@ -1,4 +1,4 @@
-name: Update Azure JSON
+name: Scheduled Update Azure JSON
 on: 
   schedule:
     - cron: '59 23 * * *'

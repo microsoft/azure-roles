@@ -1,7 +1,5 @@
-name: Update Azure JSON
+name: Manual Update Azure JSON
 on: workflow_dispatch 
-  #schedule:
-    #- cron: '59 23 * * *'
 
 permissions: write-all
 

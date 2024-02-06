@@ -1,4 +1,15 @@
 # Connect to Azure
+
+$azResourceModule = Get-module -Name Az.Resources
+if ($azResourceModule -eq $null) {
+    Install-Module -Name Az.Resources -Repository PSGallery -Force
+}
+
+$azAccountModule = Get-module -Name Az.Accounts
+if ($azAccountModule -eq $null) {
+    Install-Module -Name Az.Accounts -Repository PSGallery -Force
+}
+
 $SecurePassword = ConvertTo-SecureString -String "$env:CLIENT_SECRET"-AsPlainText -Force
 $TenantId = "$env:TENANT_ID"
 $ApplicationId = "$env:CLIENT_ID"

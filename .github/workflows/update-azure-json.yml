@@ -1,0 +1,14 @@
+name: get hash
+on:
+  schedule:
+    - cron: '59 23 * * *'
+
+jobs:
+    build:
+      name: Run PowerShell Script
+      runs-on: windows-latest
+      steps:
+        - uses: actions/checkout@v3
+        - name: Script
+          run: ./create-azurejson.ps1
+          shell: pwsh

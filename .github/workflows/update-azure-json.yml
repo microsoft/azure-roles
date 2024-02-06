@@ -1,4 +1,4 @@
-name: get hash
+name: Update Azure JSON
 on:
   schedule:
     - cron: '59 23 * * *'

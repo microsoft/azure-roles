@@ -3,17 +3,15 @@ on: workflow_dispatch
   #schedule:
     #- cron: '59 23 * * *'
 
-permissions:
-  id-token: write
-  contents: read
-      
 jobs:
     build:
       name: Run PowerShell Script
       runs-on: windows-latest
       steps:
 
-        - shell: pwsh
+        - uses: actions/checkout@v3
+        - name: Script
+          shell: pwsh
           env:
             CLIENT_ID: ${{ secrets.CLIENT_ID }}
             CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}

@@ -4,6 +4,10 @@ There are a lot of role GUIDs to remember or lookup.
 
 Make it easier on yourself.
 
+> [!IMPORTANT]
+>
+> The azure_roles.json is automatically evaluated daily for new roles and updated when new roles are discovered.
+
 Simplify using Azure's built-in roles in Bicep and Terraform
 
 **How to**
@@ -88,3 +92,12 @@ Hovering over the role will provide the GUID. Helpful if you are translating exi
 You can always search through the JSON. Helpful if you are translating existing GUID into the JSON variable.
 
 ![Searching for role in JSON](searching-for-role-in-json.png)
+
+## Updating Azure Roles JSON
+
+New built-in roles are frequently added, to efficiently include these roles - there are two GitHub Actions. One is a manual execution and the other is a scheduled action that runs daily at midnight. The actions run the same PowerShell script, create-azurejson.ps1. 
+
+The actions collect secrets from GitHub and save them as environment variables for the script to leverage for authenticating to Azure.
+
+The script collects the latest roles and compares them with the current json. If new roles exist, then the json is committed to the repo with the number of new roles in the message.
+

@@ -1,16 +1,6 @@
 # Connect to Azure
 #Connect-AzAccount
 
-$azResourceModule = Get-module -Name Az.Resources
-if ($azResourceModule -eq $null) {
-    Install-Module -Name Az.Resources -Repository PSGallery -Force
-}
-
-$azAccountModule = Get-module -Name Az.Accounts
-if ($azAccountModule -eq $null) {
-    Install-Module -Name Az.Accounts -Repository PSGallery -Force
-}
-
 # Retrieve role definitions and create a custom object
 $roleMappings = @{}
 Get-AzRoleDefinition | ForEach-Object {

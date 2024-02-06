@@ -3,12 +3,24 @@ on: workflow_dispatch
   #schedule:
     #- cron: '59 23 * * *'
 
+permissions:
+  id-token: write
+  contents: read
+      
 jobs:
     build:
       name: Run PowerShell Script
       runs-on: windows-latest
       steps:
-        - uses: actions/checkout@v3
-        - name: Script
-          run: ./create-azurejson.ps1
-          shell: pwsh
+
+        - uses: azure/login@v1
+          with:
+            creds: ${{ secrets.AZURE_CREDENTIALS }}
+            enable-AzPSSession: true
+
+        - name: Azure PowerShell script
+          uses: azure/powershell@v1
+          with:
+            azPSVersion: "latest"
+            run: ./create-azurejson.ps1
+            shell: pwsh

@@ -1,5 +1,5 @@
 # Connect to Azure
-Connect-AzAccount
+#Connect-AzAccount
 
 # Retrieve role definitions and create a custom object
 $roleMappings = @{}

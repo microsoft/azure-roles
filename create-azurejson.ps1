@@ -16,6 +16,7 @@ $ApplicationId = "$env:CLIENT_ID"
 $Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $ApplicationId, $SecurePassword
 Connect-AzAccount -ServicePrincipal -TenantId $TenantId -Credential $Credential | Out-Null
 
+
 # Retrieve role definitions and create a custom object
 $roleMappings = @{}
 Get-AzRoleDefinition | ForEach-Object {
@@ -43,8 +44,15 @@ $sortedHashtable.GetEnumerator() | Sort-Object Name | ForEach-Object {
 # Convert back to JSON, specify the depth to ensure all nested objects are converted
 $sortedJson = $sortedObject | ConvertTo-Json -Depth 5
 
+# Current roles
+$currentAzureroles = Get-Content .\azure_roles.json
+$newAzureRoleCount = $json.count - $currentAzureroles.count
+
 # Output the sorted JSON
 $sortedJson | Out-File "azure_roles.json"
+
+
+
 
 
 & git config --local user.email "paullizer@microsoft.com"
@@ -52,8 +60,9 @@ $sortedJson | Out-File "azure_roles.json"
 
 & git diff --exit-code
 if ($LASTEXITCODE -ne 0)
-{
+{   
+    $commitMessage = "Added " + $newAzureRoleCount + " new roles."
     & git add "azure_roles.json"
-    & git commit -m "Updating roles"
+    & git commit -m $commitMessage
     & git push
 }

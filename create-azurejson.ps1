@@ -44,20 +44,22 @@ $sortedHashtable.GetEnumerator() | Sort-Object Name | ForEach-Object {
 # Convert back to JSON, specify the depth to ensure all nested objects are converted
 $sortedJson = $sortedObject | ConvertTo-Json -Depth 5
 
-# Current roles
-$currentAzureroles = Get-Content .\azure_roles.json
-$newAzureRoleCount = $json.count - $currentAzureroles.count
+# Original Azure roles Json
+$originalAzureRoleJson = Get-Content .\azure_roles.json
 
 # Output the sorted JSON
 $sortedJson | Out-File "azure_roles.json"
 
+# Current Azure roles Json
+$currentAzureRoleJson = Get-Content .\azure_roles.json
 
-
-
+# Compare the original and current JSON counts
+$newAzureRoleCount = $currentAzureRoleJson.count - $originalAzureRoleJson.count
 
 & git config --local user.email "paullizer@microsoft.com"
 & git config --local user.name "Paul Lizer"
 
+# If there are new roles, commit and push the changes
 & git diff --exit-code
 if ($LASTEXITCODE -ne 0)
 {   

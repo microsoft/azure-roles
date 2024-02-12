@@ -301,6 +301,8 @@
   "GrafanaEditor": "a79a5197-3a5c-4973-a920-486035ffd60f",
   "GrafanaViewer": "60921a7e-fef1-4a43-9b16-a26c52ad4769",
   "GraphOwner": "b60367af-1334-4454-b71e-769d9a4f83d9",
+  "GroupQuotaReader": "d0f495dc-44ef-4140-aeb0-b89110e6a7c1",
+  "GroupQuotaRequestOperator": "e2217c0e-04bb-4724-9580-91cf9871bc01",
   "GuestConfigurationResourceContributor": "088ab73d-1256-47ae-bea9-9de8e7131f31",
   "HDInsightClusterOperator": "61ed4efc-fab3-44fd-b111-e24485cc132a",
   "HDInsightDomainServicesContributor": "8d8d5a11-05d3-4bda-a417-a08778121c7c",

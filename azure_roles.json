@@ -226,6 +226,7 @@
   "DataOperatorforManagedDisks": "959f8984-c045-4866-89c7-12bf9737be2e",
   "DataPurger": "150f5e0c-0603-4f03-8c7f-cf70034c4e90",
   "DefenderforStorageDataScanner": "1e7ca9b1-60d1-4db8-a914-f2ca1ff27c40",
+  "DefenderforStoragescannerOperator(preview)": "0f641de8-0b88-4198-bdef-bd8b45ceba96",
   "DefenderKubernetesAgentOperator": "8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5",
   "DeIDBatchDataOwner": "8a90fa6b-6997-4a07-8a95-30633a7c97b9",
   "DeIDBatchDataReader": "b73a14ee-91f5-41b7-bd81-920e12466be9",

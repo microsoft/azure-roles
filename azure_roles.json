@@ -352,6 +352,7 @@
   "KeyVaultSecretsUser": "4633458b-17de-408a-b874-0445c86b69e6",
   "KnowledgeConsumer": "ee361c5d-f7b5-4119-b4b6-892157c8f64c",
   "KubernetesAgentlessOperator": "d5a2ae44-610b-4500-93be-660a0c5f5ca6",
+  "KubernetesAgentOperator": "5e93ba01-8f92-4c7a-b12a-801e3df23824",
   "KubernetesCluster-AzureArcOnboarding": "34e09817-6cbe-4d01-b1a2-e0eac5743d41",
   "KubernetesExtensionContributor": "85cb6faf-e071-4c9b-8136-154b5a04f717",
   "KubernetesNamespaceUser": "ba79058c-0414-4a34-9e42-c3399d80cd5a",

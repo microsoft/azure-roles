@@ -402,7 +402,6 @@
   "MediaServicesStreamingEndpointsAdministrator": "99dba123-b5fe-44d5-874c-ced7199a5804",
   "Microsoft.Kubernetesconnectedclusterrole": "5548b2cf-c94c-4228-90ba-30851930a12f",
   "MicrosoftSentinelAutomationContributor": "f4c81013-99ee-4d62-a7ee-b3f1f648599a",
-  "MicrosoftSentinelBusinessApplicationsAgentOperator": "c18f9900-27b8-47c7-a8f0-5b3b3d4c2bc2",
   "MicrosoftSentinelContributor": "ab8e14d6-4a74-4a29-9ba8-549422addade",
   "MicrosoftSentinelPlaybookOperator": "51d6186e-6489-4900-b93f-92e23144cca5",
   "MicrosoftSentinelReader": "8d289c81-5878-46d4-8554-54e1e3d8b5cb",

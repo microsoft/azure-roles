@@ -150,8 +150,6 @@
   "AzureSpringAppsApplicationConfigurationServiceConfigFilePatternReaderRole": "25211fc6-dc78-40b6-b205-e4ac934fd9fd",
   "AzureSpringAppsApplicationConfigurationServiceLogReaderRole": "6593e776-2a30-40f9-8a32-4fe28b77655d",
   "AzureSpringAppsConnectRole": "80558df3-64f9-4c0f-b32d-e5094b036b0b",
-  "AzureSpringAppsJobExecutionInstanceListRole": "91422e52-bb88-4415-bb4a-90f5b71f6dcb",
-  "AzureSpringAppsJobLogReaderRole": "b459aa1d-e3c8-436f-ae21-c0531140f43e",
   "AzureSpringAppsManagedComponentsLogReaderRole": "52fd16bd-6ed5-46af-9c40-29cbd7952a29",
   "AzureSpringAppsRemoteDebuggingRole": "a99b0159-1064-4c22-a57b-c9b3caa1c054",
   "AzureSpringAppsSpringCloudGatewayLogReaderRole": "4301dc2a-25a9-44b0-ae63-3636cf7f2bd2",

@@ -421,8 +421,6 @@
   "MySQLBackupAndExportOperator": "d18ad5f3-1baf-4119-b49b-d944edb1f9d0",
   "NetworkContributor": "4d97b98b-1d4f-4787-a291-c67834d212e7",
   "NewRelicAPMAccountContributor": "5d28c62d-5b37-4476-8438-e587778df237",
-  "NexusNetworkFabricServiceReader": "05fdd44c-adc6-4aff-981c-61041f0c929a",
-  "NexusNetworkFabricServiceWriter": "a5eb8433-97a5-4a06-80b2-a877e1622c31",
   "ObjectAnchorsAccountOwner": "ca0835dd-bacc-42dd-8ed2-ed5e7230d15b",
   "ObjectAnchorsAccountReader": "4a167cdf-cb95-4554-9203-2347fe489bd9",
   "ObjectUnderstandingAccountOwner": "4dd61c23-6743-42fe-a388-d8bdd41cb745",

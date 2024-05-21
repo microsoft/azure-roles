@@ -79,6 +79,8 @@
   "AzureContainerStorageOperator": "08d4c71a-cc63-4ce4-a9c8-5dd251b4d619",
   "AzureContainerStorageOwner": "95de85bd-744d-4664-9dde-11430bc34793",
   "AzureCustomerLockboxApproverforSubscription": "4dae6930-7baf-46f5-909e-0383bc931c46",
+  "AzureDeploymentStackContributor": "bf7f8882-3383-422a-806a-6526c631a88a",
+  "AzureDeploymentStackOwner": "adb29209-aa1d-457b-a786-c913953d2891",
   "AzureDigitalTwinsDataOwner": "bcd981a7-7f74-457b-83e1-cceb9e632ffe",
   "AzureDigitalTwinsDataReader": "d57506d4-4c8d-48b1-8587-93c323f6a5a3",
   "AzureEdgeOn-SiteDeploymentEngineer": "207bcc4b-86a6-4487-9141-d6c1f4c238aa",

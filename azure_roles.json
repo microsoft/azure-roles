@@ -74,7 +74,7 @@
   "AzureConnectedMachineResourceAdministrator": "cd570a14-e51a-42ad-bac8-bafd67325302",
   "AzureConnectedMachineResourceManager": "f5819b54-e033-4d82-ac66-4fec3cbf3f4c",
   "AzureConnectedSQLServerOnboarding": "e8113dce-c529-4d33-91fa-e9b972617508",
-  "AzureContainerAppsSessionCreator": "0fb8eba5-a2bb-4abe-b1c1-49dfad359bb0",
+  "AzureContainerAppsSessionExecutor": "0fb8eba5-a2bb-4abe-b1c1-49dfad359bb0",
   "AzureContainerStorageContributor": "95dd08a6-00bd-4661-84bf-f6726f83a4d0",
   "AzureContainerStorageOperator": "08d4c71a-cc63-4ce4-a9c8-5dd251b4d619",
   "AzureContainerStorageOwner": "95de85bd-744d-4664-9dde-11430bc34793",

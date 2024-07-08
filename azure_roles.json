@@ -344,7 +344,6 @@
   "GroupQuotaReader": "d0f495dc-44ef-4140-aeb0-b89110e6a7c1",
   "GroupQuotaRequestOperator": "e2217c0e-04bb-4724-9580-91cf9871bc01",
   "GuestConfigurationResourceContributor": "088ab73d-1256-47ae-bea9-9de8e7131f31",
-  "HDInsightClusterAdmin": "0847e196-2fd2-4c2f-a48c-fca6fd030f44",
   "HDInsightClusterOperator": "61ed4efc-fab3-44fd-b111-e24485cc132a",
   "HDInsightDomainServicesContributor": "8d8d5a11-05d3-4bda-a417-a08778121c7c",
   "HDInsightonAKSClusterAdmin": "fd036e6b-1266-47a0-b0bb-a05d04831731",

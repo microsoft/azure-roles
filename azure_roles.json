@@ -242,6 +242,7 @@
   "ComputeGallerySharingAdmin": "1ef6a3be-d0ac-425d-8c01-acb62866290b",
   "ComputeRecommendationsRole": "e82342c9-ac7f-422b-af64-e426d2e12b2d",
   "ConnectedClusterManagedIdentityCheckAccessReader": "65a14201-8f6c-4c28-bec4-12619c5a9aaa",
+  "ConnectorReader": "6cdbb904-5ff3-429d-8169-7d7818b91bd8",
   "ContainerAppReader": "ad2dd5fb-cd4b-4fd4-a9b6-4fed3630980b",
   "Contributor": "b24988ac-6180-42a0-ab88-20f7382dd24c",
   "Contributorw/NetworkReady-only": "ef2e6351-aaa6-4608-8d63-71880b149027",

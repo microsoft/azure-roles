@@ -423,6 +423,7 @@
   "MediaServicesMediaOperator": "e4395492-1534-4db2-bedf-88c14621589c",
   "MediaServicesPolicyAdministrator": "c4bba371-dacd-4a26-b320-7250bca963ae",
   "MediaServicesStreamingEndpointsAdministrator": "99dba123-b5fe-44d5-874c-ced7199a5804",
+  "Microsoft.EdgeWinfieldsfederatedsubscriptionreadaccessrole": "83ee7727-862c-4213-8ed8-2ce6c5d69a40",
   "Microsoft.Kubernetesconnectedclusterrole": "5548b2cf-c94c-4228-90ba-30851930a12f",
   "MicrosoftSentinelAutomationContributor": "f4c81013-99ee-4d62-a7ee-b3f1f648599a",
   "MicrosoftSentinelBusinessApplicationsAgentOperator": "c18f9900-27b8-47c7-a8f0-5b3b3d4c2bc2",

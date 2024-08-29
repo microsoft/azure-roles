@@ -238,7 +238,7 @@
   "CommunityReaderRole": "e6aadb6b-e64f-41c0-9392-d2bba3bc3ebc",
   "ComputeDiagnosticsRole": "df2711a6-406d-41cf-b366-b0250bff9ad1",
   "ComputeGalleryArtifactsPublisher": "85a2d0d9-2eba-4c9c-b355-11c2cc0788ab",
-  "ComputeGalleryImageReader": "cf7c76d2-98a3-4358-a134-615aa78bf44d",
+  "ComputeGalleryImageVersionReader": "cf7c76d2-98a3-4358-a134-615aa78bf44d",
   "ComputeGallerySharingAdmin": "1ef6a3be-d0ac-425d-8c01-acb62866290b",
   "ComputeRecommendationsRole": "e82342c9-ac7f-422b-af64-e426d2e12b2d",
   "ConnectedClusterManagedIdentityCheckAccessReader": "65a14201-8f6c-4c28-bec4-12619c5a9aaa",

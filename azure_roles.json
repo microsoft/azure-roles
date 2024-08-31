@@ -511,6 +511,7 @@
   "SecurityDetonationChamberSubmitter": "0b555d9b-b4a7-4f43-b330-627f0e5be8f0",
   "SecurityManager(Legacy)": "e3d13bf0-dd5a-482e-ba6b-9b8433878d10",
   "SecurityReader": "39bc4728-0917-49c7-9d2c-d95423bc2eb4",
+  "ServiceConnectorContributor": "db7003cd-07a9-490c-bfa5-23e40314f8d7",
   "ServicesHubOperator": "82200a5b-e217-47a5-b665-6d8765ee745b",
   "SignalR/WebPubSubContributor": "8cf5e20a-e4b2-4e9d-b3a1-5ceb692c2761",
   "SignalRAccessKeyReader": "04165923-9d83-45d5-8227-78b77b0a687e",

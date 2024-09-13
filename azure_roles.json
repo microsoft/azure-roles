@@ -66,6 +66,7 @@
   "AzureArcVMwarePrivateCloudsOnboarding": "67d33e57-3129-45e6-bb0b-7cc522f762fa",
   "AzureArcVMwarePrivateCloudUser": "ce551c02-7c42-47e0-9deb-e3b6fc3a9a83",
   "AzureArcVMwareVMContributor": "b748a06d-6150-4f8a-aaa9-ce3940cd96cb",
+  "AzureAutomanageContributor": "8d6517c1-e434-405c-9f3f-e0ae65085d76",
   "AzureCenterforSAPsolutionsadministrator": "7b0c7e81-271f-4c71-90bf-e30bdfdbc2f7",
   "AzureCenterforSAPsolutionsManagementrole": "6d949e1d-41e2-46e3-8920-c6e4f31a8310",
   "AzureCenterforSAPsolutionsreader": "05352d14-a920-4328-a0de-4cbe7430e26b",

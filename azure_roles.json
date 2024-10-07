@@ -334,6 +334,7 @@
   "DomainServicesContributor": "eeaeda52-9324-47f6-8069-5d5bade478b2",
   "DomainServicesReader": "361898ef-9ed1-48c2-849c-a832951106bb",
   "DurableTaskDataContributor": "0ad04412-c4d5-4796-b79c-f76d14c8d402",
+  "DurableTaskWorker": "80d0d6b0-f522-40a4-8886-a5a11720c375",
   "ElasticSANNetworkAdmin": "fa6cecf6-5db3-4c43-8470-c540bcb4eafa",
   "ElasticSANOwner": "80dcbedb-47ef-405d-95bd-188a1b4ac406",
   "ElasticSANReader": "af6a70f8-3c9f-4105-acf1-d719e9fca4ca",

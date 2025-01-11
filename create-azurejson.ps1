@@ -10,12 +10,16 @@ if ($azAccountModule -eq $null) {
     Install-Module -Name Az.Accounts -Repository PSGallery -Force
 }
 
+$bicepModule = Get-module -Name Bicep
+if ($bicepModule -eq $null) {
+    Install-Module -Name Bicep -Repository PSGallery -Force
+}
+
 $SecurePassword = ConvertTo-SecureString -String "$env:CLIENT_SECRET"-AsPlainText -Force
 $TenantId = "$env:TENANT_ID"
 $ApplicationId = "$env:CLIENT_ID"
 $Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $ApplicationId, $SecurePassword
 Connect-AzAccount -ServicePrincipal -TenantId $TenantId -Credential $Credential | Out-Null
-
 
 # Retrieve role definitions and create a custom object
 $roleMappings = @{}
@@ -56,6 +60,12 @@ $currentAzureRoleJson = Get-Content .\azure_roles.json
 # Compare the original and current JSON counts
 $newAzureRoleCount = $currentAzureRoleJson.count - $originalAzureRoleJson.count
 
+# Convert json to BICEP and overwrite the existing file
+'@export()
+@description(''List of all Azure RBAC roles'')
+var Roles = ' | Out-File -FilePath .\azure_roles.bicep -Force -NoNewline
+Convert-JsonToBicep -path .\azure_roles.json | Out-File -FilePath .\azure_roles.bicep -Append -NoNewline
+
 & git config --local user.email "paullizer@microsoft.com"
 & git config --local user.name "Paul Lizer"
 
@@ -64,7 +74,7 @@ $newAzureRoleCount = $currentAzureRoleJson.count - $originalAzureRoleJson.count
 if ($LASTEXITCODE -ne 0)
 {   
     $commitMessage = "Added " + $newAzureRoleCount + " new roles."
-    & git add "azure_roles.json"
+    & git add "azure_roles.*"
     & git commit -m $commitMessage
     & git push
 }

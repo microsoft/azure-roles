@@ -111,6 +111,8 @@
   "AzureEventHubsDataReceiver": "a638d3c7-ab3a-418d-83e6-5f17a39d4fde",
   "AzureEventHubsDataSender": "2b629674-e913-4c01-ae53-ef4638d8f975",
   "AzureExtensionforSQLServerDeployment": "7392c568-9289-4bde-aaaa-b7131215889d",
+  "AzureFileSyncAdministrator": "92b92042-07d9-4307-87f7-36a593fc5850",
+  "AzureFileSyncReader": "754c1a27-40dc-4708-8ad4-2bffdeee09e8",
   "AzureFrontDoorDomainContributor": "0ab34830-df19-4f8c-b84e-aa85b8afa6e8",
   "AzureFrontDoorDomainReader": "0f99d363-226e-4dca-9920-b807cf8e1a5f",
   "AzureFrontDoorProfileReader": "662802e2-50f6-46b0-aed2-e834bacc6d12",

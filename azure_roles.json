@@ -164,6 +164,7 @@
   "AzureRedHatOpenShiftDiskStorageOperator": "5b7237c5-45e1-49d6-bc18-a1f62f400748",
   "AzureRedHatOpenShiftFederatedCredential": "ef318e2a-8334-4a05-9e4a-295a196c6a6e",
   "AzureRedHatOpenShiftFileStorageOperator": "0d7aedc0-15fd-4a67-a412-efad370c947e",
+  "AzureRedHatOpenShiftHostedControlPlanesClusterAPIProvider": "88366f10-ed47-4cc0-9fab-c8a06148393e",
   "AzureRedHatOpenShiftImageRegistryOperator": "8b32b316-c2f5-4ddf-b05b-83dacd2d08b5",
   "AzureRedHatOpenShiftMachineAPIOperator": "0358943c-7e01-48ba-8889-02cc51d78637",
   "AzureRedHatOpenShiftNetworkOperator": "be7a6435-15ae-4171-8f30-4a343eff9e8f",

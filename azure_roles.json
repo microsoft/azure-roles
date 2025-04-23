@@ -56,6 +56,7 @@
   "AzureAIDeveloper": "64702f94-c441-49e6-a78b-ef80e0188fee",
   "AzureAIEnterpriseNetworkConnectionApprover": "b556d68e-0be0-4f35-a333-ad7ee1ce17ea",
   "AzureAIInferenceDeploymentOperator": "3afb7f49-54cb-416e-8c09-6dc049efa503",
+  "AzureAIProjectManager": "eadc314b-1a2d-4efa-be10-5d325db5065e",
   "AzureAISafetyEvaluator": "11102f94-c441-49e6-a78b-ef80e0188abc",
   "AzureAPICenterComplianceManager": "ede9aaa3-4627-494e-be13-4aa7c256148d",
   "AzureAPICenterCredentialAccessReader": "1df7cd83-1d3f-41df-95b0-53b30d963369",
@@ -649,6 +650,7 @@
   "TransparencyLogsOwner": "8ad4d0ee-9bfb-49e8-93fc-01abb8db6240",
   "TrustedSigningCertificateProfileSigner": "2837e146-70d7-4cfd-ad55-7efa6464f958",
   "TrustedSigningIdentityVerifier": "4339b7cf-9826-4e41-b4ed-c7f4505dac08",
+  "UsageBillingContributor": "33cdeeac-0940-4f85-9317-7e2432c17289",
   "UserAccessAdministrator": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
   "VideoIndexerRestrictedViewer": "a2c4a527-7dc0-4ee3-897b-403ade70fafb",
   "VirtualMachineAdministratorLogin": "1c0163c0-47e6-4577-8991-ea5c82e286e4",
@@ -668,5 +670,6 @@
   "WindowsAdminCenterAdministratorLogin": "a6333a3e-0164-44c3-b281-7a577aff287f",
   "WorkbookContributor": "e8ddcd69-c73f-4f9f-9844-4100522f16ad",
   "WorkbookReader": "b279062a-9be3-42a0-92ae-8b3cf002ec4d",
-  "WorkloadBuilderMigrationAgentRole": "d17ce0a2-0697-43bc-aac5-9113337ab61c"
+  "WorkloadBuilderMigrationAgentRole": "d17ce0a2-0697-43bc-aac5-9113337ab61c",
+  "WorkloadOrchestrationSolutionExternalValidator": "db9875ba-bd2b-4e98-934d-0daa549a07f0"
 }

@@ -159,6 +159,7 @@
   "AzureMLMetricsWriter(preview)": "635dd51f-9968-44d3-b7fb-6d9a6bd613ae",
   "AzureMLNotebookUser": "f71e5048-18eb-4c91-bde3-16b6bcbb129f",
   "AzureMLRegistryUser": "1823dd4f-9b8c-4ab6-ab4e-7397a3684615",
+  "AzureMonitorDashboardswithGrafanaContributor": "0618ae3d-2930-4bb7-aa00-718db34ee9f9",
   "AzureProgrammableConnectivityGatewayDataplaneUser": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
   "AzureProgrammableConnectivityGatewayUser": "609c0c20-e0a0-4a71-b99f-e7e755ac493d",
   "AzureRedHatOpenShiftCloudControllerManager": "a1f96423-95ce-4224-ab27-4e3dc72facd4",

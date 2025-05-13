@@ -38,6 +38,7 @@
   "ApplicationInsightsComponentContributor": "ae349356-3a1b-4a5e-921d-050484c6347e",
   "ApplicationInsightsSnapshotDebugger": "08954f03-6346-4c2e-81c0-ec3a5cfae23b",
   "AppServiceEnvironmentContributor": "8ea85a25-eb16-4e29-ab4d-6f2a26c711a2",
+  "ArcGatewayManager": "f6e92014-8af2-414d-9948-9b1abf559285",
   "ASEShareRefreshData": "e2472aa6-cbfa-4fa6-91aa-72a0569352db",
   "AttestationContributor": "bbf86eb8-f7b4-4cce-96e4-18cddf81d86e",
   "AttestationReader": "fd1bd22b-8476-40bc-a0bc-69b95687b9f3",

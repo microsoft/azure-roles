@@ -144,6 +144,7 @@
   "AzureKubernetesServiceHybridClusterAdminRole": "b5092dac-c796-4349-8681-1a322a31c3f9",
   "AzureKubernetesServiceHybridClusterUserRole": "fc3f91a1-40bf-4439-8c46-45edbd83563a",
   "AzureKubernetesServiceHybridContributorRole": "e7037d40-443a-4434-a3fb-8cd202011e1d",
+  "AzureKubernetesServiceMachineManagerRole": "8e253927-1f29-4d89-baa2-c3a549eff423",
   "AzureKubernetesServicePolicyAdd-onDeployment": "18ed5180-3e48-46fd-8541-4ea054d57064",
   "AzureKubernetesServiceRBACAdmin": "3498e952-d568-435e-9b2c-8d77e338d7f7",
   "AzureKubernetesServiceRBACClusterAdmin": "b1ff04bb-8a4e-4dc4-8eb5-8693973ce19b",

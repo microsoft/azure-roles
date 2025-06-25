@@ -208,6 +208,7 @@
   "AzureSpringCloudDataReader": "b5537268-8956-4941-a8f0-646150406f0c",
   "AzureSpringCloudServiceRegistryContributor": "f5880b48-c26d-48be-b172-7927bfa1c8f1",
   "AzureSpringCloudServiceRegistryReader": "cff1b556-2399-4e7e-856d-a8f754be7b65",
+  "AzureStackEdgeOperationsRole": "12b8206a-0216-4469-908d-a3e2025fe085",
   "AzureStackHCIAdministrator": "bda0d508-adf1-4af0-9c28-88919fc3ae06",
   "AzureStackHCIConnectedInfraVMs": "c99c945f-8bd1-4fb1-a903-01460aae6068",
   "AzureStackHCIDeviceManagementRole": "865ae368-6a45-4bd1-8fbf-0d5151f56fc1",

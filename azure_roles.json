@@ -415,7 +415,6 @@
   "ExperimentationMetricContributor": "6188b7c9-7d01-4f99-a59f-c88b630326c0",
   "ExperimentationReader": "49632ef5-d9ac-41f4-b8e7-bbe587fa74a1",
   "ExperimentationResourceAdmin": "548d7e7c-65ee-412b-ae37-2dbb419d4207",
-  "FHIRDataBulkOperator": "804db8d3-32c7-4ad4-a975-3f6f90d5f5f5",
   "FHIRDataContributor": "5a1fc7df-4bf1-4951-a576-89034ee01acd",
   "FHIRDataConverter": "a1705bd2-3a8f-45a5-8683-466fcfd5cc24",
   "FHIRDataExporter": "3db33094-8700-4567-8da5-1501d4e7e843",

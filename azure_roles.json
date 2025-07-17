@@ -378,7 +378,7 @@
   "DeviceUpdateDeploymentsAdministrator": "e4237640-0e3d-4a46-8fda-70bc94856432",
   "DeviceUpdateDeploymentsReader": "49e2f5d2-7741-4835-8efa-19e1fe35e47f",
   "DeviceUpdateReader": "e9dba6fb-3d52-4cf0-bce3-f06ce71b9e0f",
-  "DevOpsInfrastructureContributorRole": "76153a9e-0edb-49bc-8e01-93c47e6b5180",
+  "DevOpsInfrastructureContributor": "76153a9e-0edb-49bc-8e01-93c47e6b5180",
   "DevTestLabsUser": "76283e04-6283-4c54-8f91-bcf1374a3c64",
   "DICOMDataOwner": "58a3b984-7adf-4c20-983a-32417c86fbc8",
   "DICOMDataReader": "e89c7a3c-2f64-4fa1-a847-3e4c9ba4283a",

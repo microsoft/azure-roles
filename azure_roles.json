@@ -133,6 +133,7 @@
   "AzureHybridDatabaseAdministrator-ReadOnlyServiceRole": "5d9c6a55-fc0e-4e21-ae6f-f7b095497342",
   "Azureimpact-insightreader": "dfb2f09d-25f8-4558-8986-497084006d7a",
   "AzureIoTOperationsAdministrator": "5bc02df6-6cd5-43fe-ad3d-4c93cf56cc16",
+  "AzureIoTOperationsDiagnosticPlatform1pAppRoles": "479333aa-46b6-4a12-b41a-40f6ca1c1eec",
   "AzureIoTOperationsOnboarding": "7b7c71ed-33fa-4ed2-a91a-e56d5da260b5",
   "AzureKubernetesFleetManagerContributorRole": "63bb64ad-9799-4770-b5c3-24ed299a07bf",
   "AzureKubernetesFleetManagerHubAgentRole": "de2b316d-7a2c-4143-b4cd-c148f6a355a1",

@@ -362,7 +362,6 @@
   "DefenderforStorageDataScanner": "1e7ca9b1-60d1-4db8-a914-f2ca1ff27c40",
   "DefenderforStorageScannerOperator": "0f641de8-0b88-4198-bdef-bd8b45ceba96",
   "DefenderKubernetesAgentOperator": "8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5",
-  "DefenderUnifiedRBACDataManager": "40ead2a5-466e-4039-8a80-325542d9d2dd",
   "DeIDBatchDataOwner": "8a90fa6b-6997-4a07-8a95-30633a7c97b9",
   "DeIDBatchDataReader": "b73a14ee-91f5-41b7-bd81-920e12466be9",
   "DeIDDataOwner": "78e4b983-1a0b-472e-8b7d-8d770f7c5890",

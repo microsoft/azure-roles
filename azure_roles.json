@@ -421,6 +421,7 @@
   "DurableTaskDataReader": "d6a5505f-6ebb-45a4-896e-ac8274cfc0ac",
   "DurableTaskWorker": "80d0d6b0-f522-40a4-8886-a5a11720c375",
   "EdgeManagementCopilotUser": "53e48117-a530-4075-bcbe-d91913e3bdb8",
+  "EdgeOrderPartnerInventoryManagerServiceRole": "f24a559b-c2fc-4409-b96e-9af4b0c28ad6",
   "ElasticSANNetworkAdmin": "fa6cecf6-5db3-4c43-8470-c540bcb4eafa",
   "ElasticSANOwner": "80dcbedb-47ef-405d-95bd-188a1b4ac406",
   "ElasticSANReader": "af6a70f8-3c9f-4105-acf1-d719e9fca4ca",

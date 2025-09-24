@@ -437,6 +437,7 @@
   "EnclaveContributorRole": "19feefae-eacc-4106-81fd-ac34c0671f14",
   "EnclaveOwnerRole": "3d5f3eff-eb94-473d-91e3-7aac74d6c0bb",
   "EnclaveReaderRole": "86fede04-b259-4277-8c3e-e26b9865abd8",
+  "EssentialMachineManagementAdministrator": "34013b0a-565b-43aa-8755-1b7c286f6cf7",
   "EventGridContributor": "1e241071-0855-49ea-94dc-649edcd759de",
   "EventGridDataContributor": "1d8c3fe3-8864-474b-8749-01e3783e8157",
   "EventGridDataReceiver": "78cbd9e7-9798-4e2e-9b5a-547d9ebb31fb",

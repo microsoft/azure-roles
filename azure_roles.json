@@ -115,6 +115,7 @@
   "AzureDeviceOnboardingDiscoveryContributor": "a227fb39-f479-404b-96fd-0176f5d88ab4",
   "AzureDeviceRegistryContributorRole": "a5c3590a-3a1a-4cd4-9648-ea0a32b15137",
   "AzureDeviceRegistryCredentialsContributorRole": "09267e11-2e06-40b5-8fe4-68cea20794c9",
+  "AzureDeviceRegistryOnboardingRole": "547f7f0a-69c0-4807-bd9e-0321dfb66a84",
   "AzureDeviceUpdateAgent": "2a740172-0fc2-4039-972c-b31864cd47d6",
   "AzureDigitalTwinsDataOwner": "bcd981a7-7f74-457b-83e1-cceb9e632ffe",
   "AzureDigitalTwinsDataReader": "d57506d4-4c8d-48b1-8587-93c323f6a5a3",

@@ -39,6 +39,7 @@
   "AppServiceEnvironmentContributor": "8ea85a25-eb16-4e29-ab4d-6f2a26c711a2",
   "ArcGatewayManager": "f6e92014-8af2-414d-9948-9b1abf559285",
   "ArizeAi.ObservabilityEvalContributorRole": "dca88c6f-5090-44cd-a0ff-a88f337b12a5",
+  "ARNServiceEventGridSubscriberRole": "dc0882cc-bc27-4d21-9ea2-f821aaa10fb1",
   "ASEShareRefreshData": "e2472aa6-cbfa-4fa6-91aa-72a0569352db",
   "AttestationContributor": "bbf86eb8-f7b4-4cce-96e4-18cddf81d86e",
   "AttestationReader": "fd1bd22b-8476-40bc-a0bc-69b95687b9f3",

@@ -398,6 +398,7 @@
   "DefenderKubernetesAgentOperator": "8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5",
   "DefenderKubernetesAPIAccess": "d5a2ae44-610b-4500-93be-660a0c5f5ca6",
   "DefenderServerlessScanner": "68ac31b4-936a-4046-a6d2-ba6f8a757bf6",
+  "DefenderSettingsContributor": "7d0c0268-1199-449b-a52e-75c20879f46b",
   "DefenderUnifiedRBACAuthorizationManager": "1fd5d8bf-9037-4ede-89bf-680f798e2765",
   "DefenderUnifiedRBACAuthorizationReader": "ca62263b-07d5-4b48-b437-088803f5c2ff",
   "DefenderUnifiedRBACContributorandResponder": "625a1cea-653b-4a19-bd3a-df1d66ab6637",

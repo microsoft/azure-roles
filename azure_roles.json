@@ -336,6 +336,7 @@
   "ComputeGalleryArtifactsPublisher": "85a2d0d9-2eba-4c9c-b355-11c2cc0788ab",
   "ComputeGalleryImageReader": "cf7c76d2-98a3-4358-a134-615aa78bf44d",
   "ComputeGallerySharingAdmin": "1ef6a3be-d0ac-425d-8c01-acb62866290b",
+  "ComputeLimitOperator": "980cf6f7-edec-4fd1-8e9e-28f70b1d5258",
   "ComputeRecommendationsRole": "e82342c9-ac7f-422b-af64-e426d2e12b2d",
   "ConnectedClusterManagedIdentityCheckAccessReader": "65a14201-8f6c-4c28-bec4-12619c5a9aaa",
   "ConnectorReader": "6cdbb904-5ff3-429d-8169-7d7818b91bd8",

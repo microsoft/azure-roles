@@ -420,6 +420,7 @@ var Roles = {
   DefenderSensitiveDataDiscovery: '0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35'
   DefenderServerlessScanner: '68ac31b4-936a-4046-a6d2-ba6f8a757bf6'
   DefenderServersP1: '78b19ac9-582c-44d8-9e11-733ae424ad83'
+  DefenderServersP2: '1dc24dd8-b00e-4344-837c-58b193cd23c7'
   DefenderSettingsContributor: '7d0c0268-1199-449b-a52e-75c20879f46b'
   DefenderSQLServersOnMachines: 'd9468a2b-1820-47e1-a40e-d2b7fba1879a'
   DefenderUnifiedRBACAuthorizationManager: '1fd5d8bf-9037-4ede-89bf-680f798e2765'

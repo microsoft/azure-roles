@@ -385,6 +385,8 @@
   "CosmosDBAccountReaderRole": "fbdf93bf-df7d-467e-a4d2-9458aa1360c8",
   "CosmosDBFleetAnalyticsStorageDataWriter": "bf41e52e-617f-4981-8b7a-47431bd4e011",
   "CosmosDBFleetOperatorRole": "35ffec73-9cb8-4593-8718-40d5bc4b7f6f",
+  "CosmosDBLongTermRetentionBackupRole": "fc896ebc-f9a8-484d-a5ff-bd6a8c36289f",
+  "CosmosDBLongTermRetentionRestoreRole": "955d0cb2-de4e-43ed-819a-14220e079ba7",
   "CosmosDBOperator": "230815da-be43-4aae-9cb4-875f7bd000aa",
   "CosmosRestoreOperator": "5432c526-bc82-444a-b7ba-57c5b0b5b34f",
   "CostManagementContributor": "434105ed-43f6-45c7-a02f-909b2ba83430",

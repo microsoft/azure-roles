@@ -429,6 +429,7 @@ var Roles = {
   DefenderServersP2: '1dc24dd8-b00e-4344-837c-58b193cd23c7'
   DefenderSettingsContributor: '7d0c0268-1199-449b-a52e-75c20879f46b'
   DefenderSQLServersOnMachines: 'd9468a2b-1820-47e1-a40e-d2b7fba1879a'
+  DefenderStorageMalwareDataScanner: 'cd50fd1f-0421-46f2-8cce-afc587dbcc77'
   DefenderUnifiedRBACAuthorizationManager: '1fd5d8bf-9037-4ede-89bf-680f798e2765'
   DefenderUnifiedRBACAuthorizationReader: 'ca62263b-07d5-4b48-b437-088803f5c2ff'
   DefenderUnifiedRBACContributorandResponder: '625a1cea-653b-4a19-bd3a-df1d66ab6637'

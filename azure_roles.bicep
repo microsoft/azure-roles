@@ -544,6 +544,7 @@ var Roles = {
   GarnetScriptDataContributor: '7021ea36-e168-4bc0-af53-88de51d20665'
   GcpConnectorcontributorrole: 'a51d5f27-deba-47d1-9ccd-8589014b2e28'
   GenomeAdmin: 'ef3729d8-2861-401e-95ae-c7d4845a6097'
+  GenomeEndUser: '0e91b552-ae32-49ea-9898-317af306aa4b'
   GeoCatalogAdministrator: 'c9c97b9c-105d-4bb5-a2a7-7d15666c2484'
   GeoCatalogReader: 'b7b8f583-43d0-40ae-b147-6b46f53661c1'
   GrafanaAdmin: '22926164-76b3-42b3-bc55-97df8dab3e41'

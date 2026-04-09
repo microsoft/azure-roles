@@ -480,6 +480,7 @@ var Roles = {
   DeviceUpdateReader: 'e9dba6fb-3d52-4cf0-bce3-f06ce71b9e0f'
   DevOpsInfrastructureContributor: '76153a9e-0edb-49bc-8e01-93c47e6b5180'
   DevTestLabsUser: '76283e04-6283-4c54-8f91-bcf1374a3c64'
+  DiagnosticsOperator: '64375caa-ac3e-48b3-9492-da4d60aba7bb'
   DICOMDataOwner: '58a3b984-7adf-4c20-983a-32417c86fbc8'
   DICOMDataReader: 'e89c7a3c-2f64-4fa1-a847-3e4c9ba4283a'
   DiskBackupReader: '3e5e47e6-65f7-47ef-90b5-e5dd4d455f24'
